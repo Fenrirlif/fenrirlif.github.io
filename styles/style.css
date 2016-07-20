@@ -33,15 +33,15 @@ ul { margin-left: 40px; list-style-type: circle;}
 		#main_header > .max_width > div { display: inline-block; vertical-align: top; width: calc(100% - 150px); height: 64px; padding: 8px 16px 8px 0px; text-align: right;}
 			#main_header > .max_width > div > p { height: 24px; line-height: 24px; font-size: 16px;}
 
-#main_nav { position: relative; z-index: 1; height: 32px; border-top: 1px solid #630; border-bottom: 1px solid #630; background-color: #4d3119; box-shadow: 0px 0px 4px #333;}
+#main_nav { position: relative; z-index: 1; height: 32px; border-top: 1px solid #3a2513; border-bottom: 1px solid #3a2513; background-color: #4d3119; box-shadow: 0px 0px 4px #333;}
 	#main_nav > .max_width { height: 30px;}
-		#main_nav > .max_width > a { display: inline-block; vertical-align: top; height: 30px; line-height: 30px; /*padding: 0px 16px 0px 32px;*/ padding: 0px 16px; border-left: 1px solid #630; /*background-size: 16px 16px; background-position: 4px 50%; background-repeat: no-repeat;*/ font-size: 16px; color: #fff; transition: all 250ms ease;}
-		#main_nav > .max_width > a:last-child { border-right: 1px solid #630;}
+		#main_nav > .max_width > a { display: inline-block; vertical-align: top; height: 30px; line-height: 30px; /*padding: 0px 16px 0px 32px;*/ padding: 0px 16px; border-left: 1px solid #3a2513; /*background-size: 16px 16px; background-position: 4px 50%; background-repeat: no-repeat;*/ font-size: 16px; color: #fff; transition: all 250ms ease;}
+		#main_nav > .max_width > a:last-child { border-right: 1px solid #3a2513;}
 /*		#main_nav > .max_width > a.server { background-image: url("../img/icons/server.svg");}
 		#main_nav > .max_width > a.map { background-image: url("../img/icons/map.svg");}
 		#main_nav > .max_width > a.clans { background-image: url("../img/icons/clans.svg");}
 		#main_nav > .max_width > a.mods { background-image: url("../img/icons/mods.svg");}*/
-		#main_nav > .max_width > a:hover { background-color: #b8957a; color: #fff;}
+		#main_nav > .max_width > a:hover { /*background-color: #;*/ color: #b8957a;}
 
 #main { display: block; width: 1024px; min-height: calc(100% - 96px); margin: auto; padding: 16px; box-shadow: 0px 0px 4px #333; background-color: #fff;}
 	#main > .view {}
