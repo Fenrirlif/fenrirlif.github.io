@@ -13,11 +13,13 @@
 	
 	<body ng-app="app">
 		<div id="main_div">
-			<header id="main_header" ng-include="'templates/header.html'"></header>
+			<div class="cover">
+				<header id="main_header" ng-include="'templates/header.html'"></header>
 
-			<nav id="main_nav" ng-include="'templates/nav.html'"></nav>
+				<nav id="main_nav" ng-include="'templates/nav.html'"></nav>
 
-			<main id="main" role="main" ng-view></main>
+				<main id="main" role="main" ng-view></main>
+			</div>
 		</div>
 
 		<script type="text/javascript" src="https://code.angularjs.org/1.5.7/angular.min.js"></script>
