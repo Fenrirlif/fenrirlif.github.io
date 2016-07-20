@@ -26,7 +26,7 @@ ul { margin-left: 40px; list-style-type: circle;}
 #main_div { min-width: 1024px; height: 100%; background-image: url("../img/lif_bg.jpg"); background-size: cover;}
 	#main_div > .cover { display: block; width: 100%; height: 100%; background-color: rgba(201, 175, 156, 0.2); overflow: auto;}
 
-#main_header { position: relative; z-index: 2; height: 64px; background-color: #9d7455; color: #fff;}
+#main_header { position: relative; z-index: 2; height: 64px; background-color: #3a2513; color: #fff;}
 	#main_header > .max_width { height: 64px;}
 		#main_header > .max_width > h1 { display: inline-block; vertical-align: top; width: 150px; height: 64px;}
 			#main_header > .max_width > h1 > a { display: block; width: 100%; height: 64px; line-height: 64px; padding-left: 16px; font-size: 42px; color: #fff;}
