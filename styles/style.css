@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Oswald:700");
+@font-face { font-family: "Kaushan"; src: url("../fnt/Kaushan-Regular.otf");}
 
 * { box-sizing: border-box; margin: 0px; padding: 0px; outline: none;}
 html { height: 100%;}
 body { height: 100%; font-size: 0px; font-family: "Roboto"; color: #333;}
 input { font-family: "Roboto";}
-h1 { font-family: "Oswald"; font-weight: 400;}
+h1 { font-family: "Kaushan"; font-weight: 400;}
 h2 { font-weight: 700;}
 h3 { font-weight: 500;}
 a { text-decoration: none;}
