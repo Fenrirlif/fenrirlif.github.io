@@ -11,7 +11,7 @@ input { font-family: "Roboto";}
 h1 { font-family: "VesperLibre-Regular"; font-weight: 400; color: #efede4;}
 
 h2 { font-weight: 700; font-family: "VesperLibre-Regular";}
-h3 { font-weight: 500; font-family: "VesperLibre-Regular";}
+h3 { font-weight: 500; font-family: "VesperLibre-Regular"; color: #c20b00; }
 a { text-decoration: none; font-family: "VesperLibre-Regular";}
 ul { margin-left: 40px; list-style-type: circle;}
 
@@ -54,6 +54,7 @@ ul { margin-left: 40px; list-style-type: circle;}
 		#main > .view > h2 { margin: 16px 0px; font-size: 24px;}
 		#main > .view > h3 { margin-bottom: 32px; font-size: 20px;}
 		#main > .view > p { margin-top: 8px; font-size: 16px;}
+		#main > .view > h3 > .para { margin-bottom: 32px;}
 		#main > .view > ul { margin-top: 8px;}
 			#main > .view > ul > li { font-size: 16px;}
 		#main > .view a { color: #c20b00; text-decoration: underline;}
