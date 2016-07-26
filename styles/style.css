@@ -68,7 +68,7 @@ ul { margin-left: 40px; list-style-type: circle;}
 	#map_view {}
 		#map_view > .controls {}
 			#map_view > .controls > p { height: 32px; line-height: 32px; font-size: 16px;}
-				#map_view > .controls > p > input { width: 16px height: 16px; margin: 8px;}
+				#map_view > .controls > p > input { width: 16px; height: 16px; margin: 8px;}
 		#map_container { display: block; position: relative; width: 768px; height: 768px; background-image: url("../img/map_800.png"); background-size: 100% 100%;}
 			#map_container > .cell { display: inline-block; vertical-align: top; text-align: center; text-shadow: 1px 1px 1px #000; color: #fff;}
 			#map_container > .cell:hover { background-color: rgba(255, 255, 255, 0.3); font-size: 12px;}
