@@ -5,6 +5,7 @@ app.config(function($routeProvider)
 	$routeProvider.when("/", {templateUrl: "partials/home.html"});
 	$routeProvider.when("/serveur", {templateUrl: "partials/server.html"});
 	$routeProvider.when("/regles", {templateUrl: "partials/rules.html"});
+		$routeProvider.when("/rp", {templateUrl: "partials/rp.html"});
 	$routeProvider.when("/histoire", {templateUrl: "partials/story.html"});
 	$routeProvider.when("/personnages", {templateUrl: "partials/characters.html"});
 	$routeProvider.when("/carte", {templateUrl: "partials/map.html", controller: "map_ctrl"});
