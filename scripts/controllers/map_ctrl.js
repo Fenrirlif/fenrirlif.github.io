@@ -81,23 +81,23 @@ app.controller("map_ctrl", function($scope)
 
 	$scope.color_zone = function(x, y)
 	{
-		// if (y == 0 && x <= 7) return ("NW"); if (y == 0 && x >= 9) return ("NE");
-		// if (y == 1 && x <= 7) return ("NW"); if (y == 1 && x >= 9) return ("NE");
-		// if (y == 2 && x <= 7) return ("NW"); if (y == 2 && x >= 8) return ("NE");
-		// if (y == 3 && x <= 6) return ("NW"); if (y == 3 && x >= 9) return ("NE");
-		// if (y == 4 && x <= 6) return ("NW"); if (y == 4 && x >= 9) return ("NE");
-		// if (y == 5 && (x <= 4 || x == 6 || x == 7)) return ("NW"); if (y == 5 && x >= 8) return ("NE");
-		// if (y == 6 && x <= 2) return ("NW"); if (y == 6 && (x == 10 || x == 11)) return ("NE");
-
-		// if (y == 6 && (x == 3 || x == 4 || x == 5)) return ("SW");
-		// if (y == 7 && x <= 5) return ("SW");
-		// if (y == 8 && x <= 5) return ("SW"); if (y == 8 && x >= 6 && x <= 10) return ("SE");
-		// if (y == 9 && x <= 4) return ("SW"); if (y == 9 && x >= 6) return ("SE");
-		// if (y == 10 && x <= 5) return ("SW"); if (y == 10 && x >= 6) return ("SE");
-		// if (y == 11 && x <= 5) return ("SW"); if (y == 11 && x >= 6) return ("SE");
-		// if (y == 12 && x <= 5) return ("SW"); if (y == 12 && x >= 6) return ("SE");
-		// if (y == 13 && x <= 5) return ("SW"); if (y == 13 && x >= 6) return ("SE");
-		// if (y == 14 && x <= 5) return ("SW"); if (y == 14 && x >= 6) return ("SE");
+		if (y == 0 && x <= 0) return ("NW"); if (y == 0 && x >= 0) return ("NE");
+		if (y == 1 && x <= 0) return ("NW"); if (y == 1 && x >= 0) return ("NE");
+		if (y == 2 && x <= 0) return ("NW"); if (y == 2 && x >= 0) return ("NE");
+		if (y == 3 && x <= 0) return ("NW"); if (y == 3 && x >= 0) return ("NE");
+		if (y == 4 && x <= 0) return ("NW"); if (y == 4 && x >= 0) return ("NE");
+		if (y == 5 && (x <= 4 || x == 6 || x == 7)) return ("NW"); if (y == 5 && x >= 8) return ("NE");
+		if (y == 6 && x <= 0) return ("NW"); if (y == 6 && (x == 10 || x == 11)) return ("NE");
+0
+		if (y == 6 && (x == 3 || x == 4 || x == 5)) return ("SW");
+		if (y == 7 && x <= 0) return ("SW");
+		if (y == 8 && x <= 0) return ("SW"); if (y == 8 && x >= 6 && x <= 10) return ("SE");
+		if (y == 9 && x <= 0) return ("SW"); if (y == 9 && x >= 6) return ("SE");
+		if (y == 10 && x <= 0) return ("SW"); if (y == 10 && x >= 0) return ("SE");
+		if (y == 11 && x <= 0) return ("SW"); if (y == 11 && x >= 0) return ("SE");
+		if (y == 12 && x <= 0) return ("SW"); if (y == 12 && x >= 0) return ("SE");
+		if (y == 13 && x <= 0) return ("SW"); if (y == 13 && x >= 0) return ("SE");
+		if (y == 14 && x <= 0) return ("SW"); if (y == 14 && x >= 0) return ("SE");
 
 		return ("locked");
 	}
