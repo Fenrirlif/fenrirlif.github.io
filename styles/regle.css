@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Oswald:700");
+@font-face { font-family: "Kaushan"; src: url("../fnt/Kaushan-Regular.otf");}
+
+@font-face { font-family: "VesperLibre-Regular"; src: url("../fnt/VesperLibre-Regular.ttf");}
+
+* { box-sizing: border-box; margin: 0px; padding: 0px; outline: none;}
+html { height: 100%;}
+body { height: 100%; font-family: "Roboto"; color: #333; background-color: #f5f5f5;}
+input { font-family: "Roboto";}
+h1 { font-family: "VesperLibre-Regular"; font-weight: 400; color: #473f1c;}
+
+h2 { font-weight: 700; font-family: "VesperLibre-Regular";}
+h3 { font-weight: 500; font-family: "VesperLibre-Regular"; color: #c20b00; }
+a { text-decoration: none; font-family: "VesperLibre-Regular";}
+ul { margin-left: 40px; list-style-type: circle;}
+
+.max_width { display: block; margin: auto;}
+
+#bendeau { background-color: rgba(201, 175, 160, 0.3); margin: auto;}
+#bendeau > h1 {margin-left: 35%;}
+section { margin: 20px;}
+.separator { display: block; margin: 32px 256px; border-bottom: 1px solid #ccc;}
+.small_separator { display: block; margin: 32px 0px;}
+
+.bold { font-weight: 500;}
+.brown { color: #2b2205;}
+.light_brown { color: #c20b00;}
+.light_blue { color: #c20b00;}
+.blue { color: #c20b00;}
+.dark { color: #333;}
+
